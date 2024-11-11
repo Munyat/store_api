@@ -2,6 +2,11 @@
   "pythonIndent.keepHangingBracketOnLine": true,
   "pythonIndent.trimLinesWithOnlyWhitespace": true,
   "pythonIndent.useTabOnHangingIndent": true,
-  "python.analysis.autoImportCompletions": true,
-  "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.typeCheckingMode": "basic",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "editor.defaultFormatter": "ms-python.autopep8",
+  "editor.formatOnSave": true
 }
